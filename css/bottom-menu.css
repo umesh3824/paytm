@@ -1,0 +1,87 @@
+body{
+  overflow: scroll;
+}
+.navbar-bottom {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar-bottom a {
+    display: block;
+    color: rgb(29, 29, 136);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar-bottom a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+  /*page style*/
+
+  .head-item-container{
+    background-color:#00B9F1;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .item-head a{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 29, 136);
+  }
+  .item-head .item-icon{
+    background-color: #fff;
+    display: inline;
+    padding: 10px;
+    padding: 20px 15px 15px 15px;
+    border-radius: 100px;
+  }
+  .item-head small{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .small-container img{
+    border-radius: 20px;
+    height: 100px;
+  }
+  .large-container img{
+    border-radius: 20px;
+    height: 200px;
+  }
+  .reachrge-section{
+    border-radius: 20px;
+    text-align: center;
+  }
+  .reachrge-section a{
+    color: rgb(29, 29, 136);
+    font-size: 40px;
+  }
+  .reachrge-section small{
+    color: rgb(29, 29, 136);
+  }
+  
+
+  /*Side menu*/
+  .side-menu-item{
+    padding: 10px;
+    color: rgb(29, 29, 136);
+  }
+
+  .gradient-img{
+    background: rgb(151,224,251);
+background: linear-gradient(180deg, rgba(151,224,251,1) 52%, rgba(193,236,253,1) 64%, rgba(255,255,255,1) 82%);
+  }
